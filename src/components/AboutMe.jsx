@@ -62,7 +62,8 @@ const AboutMe = () => {
               developers in the world.
             </p>
           </motion.div>
-          <div ref={ref}>
+          <div ref={ref}
+          className="px-8">
             <motion.img
               animate={animation}
               src={dev}
@@ -72,6 +73,8 @@ const AboutMe = () => {
             />
           </div>
         </div>
+      </div>
+      <div>
       </div>
     </>
   );

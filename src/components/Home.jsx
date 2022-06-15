@@ -23,7 +23,7 @@ const Home = () => {
                     ease: "anticipate"
                   }}
                   
-                  className=" font-mono lg:pl-28 text-2xl lg:text-6xl text-teal-100">
+                  className=" font-mono  text-2xl lg:text-6xl text-teal-100">
                     My Portfolio
                   </motion.h1>
                 </div>
