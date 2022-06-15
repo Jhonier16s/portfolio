@@ -1,8 +1,15 @@
+import AboutMe from "./components/AboutMe";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-   <>
-    <h1 className="bg-slate-400">Hola</h1>
+    <>
+     
+        <Navbar />
+        <Home />
+        <AboutMe/>
+      
     </>
   );
 }
