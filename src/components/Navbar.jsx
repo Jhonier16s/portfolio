@@ -63,7 +63,7 @@ const Navbar = () => {
                             href="#Home"
                             className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:bg-cyan-100"
                           >
-                            <span className="relative text-black-pearl-200">
+                            <span className="relative text-white">
                               Home
                             </span>
                           </a>
@@ -73,7 +73,7 @@ const Navbar = () => {
                             href="#about-me"
                             className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100"
                           >
-                            <span className="relative text-black-pearl-200">
+                            <span className="relative text-white">
                               About me
                             </span>
                           </a>
@@ -83,17 +83,17 @@ const Navbar = () => {
                             href="#Skills"
                             className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100"
                           >
-                            <span className="relative text-black-pearl-200">
+                            <span className="relative text-white">
                               Skills
                             </span>
                           </a>
                         </li>
                         <li>
                           <a
-                            href="#home"
+                            href="#Projects"
                             className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100"
                           >
-                            <span className="relative text-black-pearl-200">
+                            <span className="relative text-white">
                               Projects
                             </span>
                           </a>
@@ -103,7 +103,7 @@ const Navbar = () => {
                             href="#contact"
                             className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100"
                           >
-                            <span className="relative text-black-pearl-200">
+                            <span className="relative text-white">
                               Contact
                             </span>
                           </a>

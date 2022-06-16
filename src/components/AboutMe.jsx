@@ -51,7 +51,7 @@ const AboutMe = () => {
           <motion.div
             ref={ref}
             animate={animation2}
-            className="max-w-screen-sm text-black-pearl-100 pb-10 px-2"
+            className="max-w-screen-sm text-white pb-10 px-2"
           >
             <div className="flex flex-row pb-2">
               <h1 className="text-6xl bold font-bold pr-2">I'm </h1>
