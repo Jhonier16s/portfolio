@@ -4,7 +4,7 @@ const Navbar = () => {
 
   const [view, setView] = useState(false)
    useEffect(()=>{
-    console.log(view);
+   /*  console.log(view); */
   },[view]) 
 
   const handleCloseMenu =()=>{
@@ -80,11 +80,11 @@ const Navbar = () => {
                         </li>
                         <li>
                           <a
-                            href="#home"
+                            href="#Skills"
                             className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100"
                           >
                             <span className="relative text-black-pearl-200">
-                              Portfolio
+                              Skills
                             </span>
                           </a>
                         </li>
@@ -94,7 +94,17 @@ const Navbar = () => {
                             className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100"
                           >
                             <span className="relative text-black-pearl-200">
-                              Services
+                              Projects
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#contact"
+                            className="group relative behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100"
+                          >
+                            <span className="relative text-black-pearl-200">
+                              Contact
                             </span>
                           </a>
                         </li>
@@ -102,12 +112,14 @@ const Navbar = () => {
 
                       <div className="flex justify-center flex-col border-t py-8 px-6 md:px-12 md:py-16 lg:border-t-0  lg:py-0 lg:pr-0 lg:pl-6">
                         <a
-                          href="#home"
+                          href="https://github.com/Jhonier16s"
+                          target="_blank"
+                          rel="noreferrer"
                           className="block px-6 hover:brightness-125 py-3 rounded-full bg-gradient-to-r from-GithubGradient1 to-GithubGradient2 text-center text-white"
                         >
                           Github
                         </a>
-                        <button className="bg-white text-dark mt-4 px-2 ml-auto mr-auto w-20 py-2 rounded-md hover:bg-GithubGradient1 hover:text-white transition duration-200  " onClick={()=>{handleCloseMenu()}}>Close</button>
+                        <button className="md:hidden lg:hidden bg-white text-dark mt-4 px-2 ml-auto mr-auto w-20 py-2 rounded-md hover:bg-GithubGradient1 hover:text-white transition duration-200  " onClick={()=>{handleCloseMenu()}}>Close</button>
                       </div>
                       <div>
 
