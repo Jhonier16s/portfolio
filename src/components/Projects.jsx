@@ -51,7 +51,7 @@ const Projects = () => {
 
   return (
     <>
-      <div id="Projects" className="bg-black-pearl-900 py-10 px-12">
+      <div id="Projects" className="bg-black-pearl-900 py-10 mt-6 mb-12 px-12">
         <div className="pb-10">
           <Title text="Projects" />
         </div>
